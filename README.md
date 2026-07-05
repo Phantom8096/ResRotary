@@ -7,5 +7,6 @@
 /// <param name="point_list">[nx6]Points in Rotary</param>
 /// <param name="robot_list">[nx6]Points in Robot</param>
 /// <param name="table_list">[n]Joints of Rorary</param>
-/// <returns></returns>
+/// <returns>0</returns>
+
 __declspec(dllexport) int res_rotary(const double rot_table[6], const double* param, int n, const double* point_list, double* robot_list, double* table_list);
